@@ -1,5 +1,8 @@
 import { FiHome } from "react-icons/fi";
+import { BsSearch } from "react-icons/bs";
+import { BsFillMenuButtonFill } from "react-icons/bs";
 import { GiHamburgerMenu } from "react-icons/gi";
+import { BsToggleOn } from "react-icons/bs";
 
 export default function Navbar() {
   return (
@@ -13,15 +16,16 @@ export default function Navbar() {
         </div>
         <ul className="flex gap-4 mr-4 items-center">
           <li>
-            <a href="#">
               <FiHome />
-            </a>
           </li>
           <li>
-            <a href="#">About</a>
+            <a href="#"><BsSearch /></a>
           </li>
           <li>
-            <a href="#">Contacts</a>
+            <a href="#"><BsFillMenuButtonFill /></a>
+          </li>
+          <li>
+          <BsToggleOn />
           </li>
         </ul>
       </nav>
