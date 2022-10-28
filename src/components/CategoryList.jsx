@@ -7,7 +7,7 @@ import { CgGym } from "react-icons/cg";
 
 export default function CategoryList() {
     return (
-        <div className=" overflow-x-scroll w-full flex gap-2 my-4 scr">
+        <div className=" overflow-x-auto w-full flex gap-2 my-4 scr">
             <Category
                 category="Kids"
                 colorFrom="from-blue-600"
