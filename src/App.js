@@ -16,8 +16,8 @@ function App() {
                     <CategoryList />
                     <ListPost />
                 </main>
-                <Footer />
             </div>
+            <Footer />
             <NavBottom />
         </>
     );
