@@ -9,7 +9,7 @@ export default function ArticleList() {
     const [article, setArticle] = useState([])
     useEffect(()=>{
         const getData = async ()=>{
-            const articlesCollectionRef = collection(db, "articles")
+            const articlesCollectionRef = collection(db, "article")
             const data = await getDocs(articlesCollectionRef)
             setArticle(data.docs.map(doc => ({...doc.data(), id:doc.id})))
             console.log(article)
@@ -25,6 +25,8 @@ export default function ArticleList() {
             return (<div> 
                 <h1>{articles.title}</h1>
                 <p>{articles.body}</p>
+                <img src={articles.img} alt='' />
+                <p>Category : {articles.img}</p>
                 <p>Category : {articles.category}</p>
                 </div>)
         })}

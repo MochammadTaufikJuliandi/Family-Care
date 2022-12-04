@@ -8,9 +8,7 @@ export default function AddArticles() {
     const [body,onBodyChange] = useInput()   
     const categoryOption = ['ayah','ibu','anak']
     const [category, setCategory] = useState(categoryOption[0])
-   
-
-    const articlesCollectionRef = collection(db, "articles")
+    const articlesCollectionRef = collection(db, "article")
     const createArticles = async () => {
         const date = new Date()
         await addDoc(articlesCollectionRef,{title:title,body:body,date:date, category:category  })

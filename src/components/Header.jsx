@@ -4,7 +4,7 @@ import Navbar from './Navbar';
 function Header() {
     return(
         <div id='main'>
-            <Navbar/>
+            
             <div className="name">
                 <h1><span>FAMILY CARE</span><br/>Mari Membangun Keluarga yang Bahagia</h1>
                 <p className="details">Family Care merupakan website tentang parenting 

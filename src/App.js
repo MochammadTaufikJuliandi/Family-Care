@@ -1,23 +1,23 @@
 import React from "react";
-import Header from './components/Header';
-import Feature from "./components/Feature";
-import About from "./components/About";
-import Contact from "./components/Contact";
-import aboutImage1 from './components/images/download.png';
-import Video from "./components/Video";
-import ArticleList from "./components/ArticleList";
-import AddArticles from "./components/AddArticles";
+import Navbar from "./components/Navbar";
+import { BrowserRouter, Routes, Route  } from "react-router-dom";
+import HomePage from "./pages/HomePage";
+import Articles from "./pages/Articles";
+import Konsultasi from "./pages/Konsultasi";
 
 function App() {
 
     return (
-     <div className="App">
-        <Header/>
-        <Video/>
-        <Feature/>
-        <ArticleList/>
-        <AddArticles/>
+        <BrowserRouter>
+        <div className="App">
+        <Navbar/>
+        <Routes>
+            <Route path="/" element={<HomePage/>}/>
+            <Route path="/article" element={<Articles/>}/>
+            <Route path="/konsultasi" element={<Konsultasi/>}/>
+        </Routes>
         </div>
+        </BrowserRouter>
     );
 }
 
