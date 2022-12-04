@@ -12,7 +12,6 @@ export default function ArticleList() {
             const articlesCollectionRef = collection(db, "article")
             const data = await getDocs(articlesCollectionRef)
             setArticle(data.docs.map(doc => ({...doc.data(), id:doc.id})))
-            console.log(article)
         }
         getData()
     },[article])
@@ -22,11 +21,10 @@ export default function ArticleList() {
   return (
     <div>
         {article.map((articles) =>{
-            return (<div> 
+            return (<div key={articles.id}> 
                 <h1>{articles.title}</h1>
                 <p>{articles.body}</p>
                 <img src={articles.img} alt='' />
-                <p>Category : {articles.img}</p>
                 <p>Category : {articles.category}</p>
                 </div>)
         })}

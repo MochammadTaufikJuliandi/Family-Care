@@ -8,6 +8,11 @@ body{
     background-color: #ffffff;
     font-family: 'Montserrat', sans-serif;
 }
+
+img{ 
+    width: 200px;
+    height: 200px;
+}
 *{
     box-sizing: border-box;
 }

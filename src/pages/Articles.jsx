@@ -1,10 +1,12 @@
-import React from 'react'
-import Navbar from '../components/Navbar'
+import React from "react";
+import ArticleList from "../components/ArticleList";
+import AddArticles from "../components/AddArticles";
+
 export default function Articles() {
   return (
     <>
-    
-    <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque ducimus tempora reprehenderit beatae. Ipsa corrupti aliquid itaque iste unde laborum.</div>
+      <ArticleList />
+      <AddArticles />
     </>
-  )
+  );
 }
