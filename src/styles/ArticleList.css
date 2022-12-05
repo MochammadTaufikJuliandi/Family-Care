@@ -1,0 +1,9 @@
+.articleList{
+    padding: 20px;
+}
+.articleList__section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
