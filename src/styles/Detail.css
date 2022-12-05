@@ -1,0 +1,31 @@
+.detail {
+  width: 70%;
+  margin: auto;
+}
+
+.detail .title {
+  font-size: 2rem;
+  color: rgb(37, 37, 37);
+}
+
+.detail img {
+  position: relative;
+  width: 100%;
+  min-height: 400px;
+  object-fit: cover;
+}
+
+.detail p {
+  font-size: 1rem;
+  text-align: justify;
+}
+
+@media (max-width: 768px) {
+  .detail {
+    width: 80%;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+}

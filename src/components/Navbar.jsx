@@ -17,12 +17,12 @@ function Navbar() {
     window.addEventListener('scroll', changeBackground);
     return(
         <nav className={nav ? 'nav active' : 'nav'}>
-            <Link to="#" className="logo">
+            <Link to="/" className="logo">
                 <img src={logo} alt=''/>
             </Link>
             
             <input type='checkbox' className="menu-btn" id='menu-btn' />
-            <label className="menu-icon" for='menu-btn'>
+            <label className="menu-icon" htmlFor='menu-btn'>
                 <span className="nav-icon"></span>
             </label>
 
@@ -30,8 +30,8 @@ function Navbar() {
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/article">Artikel</Link></li>
                 <li><Link to="/konsultasi">Konsultasi</Link></li>
-                <li><Link to="#">Login</Link></li>
-                <li><Link to="#" className="active">Daftar</Link></li>
+                <li><Link to="/login">Login</Link></li>
+                <li><Link to="/register" className="active">Daftar</Link></li>
             </ul>
         </nav>
         

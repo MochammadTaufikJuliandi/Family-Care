@@ -1,17 +1,14 @@
-
-
 import { initializeApp } from "firebase/app";
-import {getFirestore} from 'firebase/firestore'
+import { getFirestore } from "firebase/firestore";
 const firebaseConfig = {
-  apiKey: "AIzaSyD5sBrN4h0chrFX8GKNJ0cIORQnZ20EhNE",
-  authDomain: "family-care-b2e06.firebaseapp.com",
-  projectId: "family-care-b2e06",
-  storageBucket: "family-care-b2e06.appspot.com",
-  messagingSenderId: "78382669149",
-  appId: "1:78382669149:web:8d963e4e775fd9dc6f9cb4",
-  measurementId: "G-K0KK9R09EK"
+  apiKey: "AIzaSyBYmAZl4dNZXaz_naq9rBepl7TTQ7NipQA",
+  authDomain: "family-care-945fc.firebaseapp.com",
+  projectId: "family-care-945fc",
+  storageBucket: "family-care-945fc.appspot.com",
+  messagingSenderId: "559163743795",
+  appId: "1:559163743795:web:5203a73799f8bb84164d46",
+  measurementId: "G-89M3CG1HRJ",
 };
 
-
 const app = initializeApp(firebaseConfig);
-export const db = getFirestore(app)
+export const db = getFirestore(app);
