@@ -13,11 +13,12 @@
     width: 100%;
     min-height: 150px;
     background-color: rgb(19, 182, 162);
+    max-height: 150px;
 }
 .card__img img{
     width: 100%;
     height: 100%;
-    object-fit:fill;
+    object-fit:cover;
 }
 
 .card__body{
@@ -29,6 +30,9 @@
     
 }
 .card__detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     padding: 10px;
 }
 .card__category{
