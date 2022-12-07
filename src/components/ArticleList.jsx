@@ -1,7 +1,6 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import  '../styles/ArticleList.css'
-import {Link} from 'react-router-dom'
 import { db } from "../firebase-config";
 import { collection, getDocs } from "firebase/firestore";
 import ArticleCard from "./ArticleCard";
@@ -12,7 +11,7 @@ export default function ArticleList() {
       const articlesCollectionRef = collection(db, "article");
       const data = await getDocs(articlesCollectionRef);
       setArticle(data.docs.map((doc) => ({ ...doc.data(), id: doc.id })));
-      console.log('loop')
+     
     };
     getData();
     
