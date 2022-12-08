@@ -1,7 +1,8 @@
 import React from 'react'
+import KonsultasiList from '../components/KonsultasiList'
 
 export default function Konsultasi() {
   return (
-    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatem amet rem pariatur impedit! Commodi fugiat sapiente quas nobis sint.</div>
+    <KonsultasiList />
   )
 }
