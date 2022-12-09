@@ -1,11 +1,24 @@
-import React from "react";
+import React from 'react';
+import { BrowserRouter, Routes, Route  } from "react-router-dom";
 import ArticleList from "../components/ArticleList";
+import Header from '../components/Header';
+import Footer from '../components/Footer';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
-export default function Articles() {
+const Articles = () => {
+  // animate on scroll initialization
+  Aos.init({
+    duration: 1800,
+    offset: 0,
+  });
   return (
-    <>
-      
-      <ArticleList />
-    </>
+    <div className='overflow-hidden'>
+    <Header />
+    <ArticleList />
+    <Footer />
+    </div>
   );
-}
+};
+
+export default Articles;

@@ -21,7 +21,7 @@ export default function DetailKonsul() {
   },[])
   
   if(konsul === undefined) {
-   return( <h1>Our Partner</h1>)
+   return( <h1></h1>)
   }else{
     return (
       <div className="detail">

@@ -1,11 +1,8 @@
 import React from "react";
-import Navbar from "./components/Navbar";
 import { BrowserRouter, Routes, Route  } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import Articles from "./pages/Articles";
 import Konsultasi from "./pages/Konsultasi";
-import LoginPage from "./pages/LoginPage";
-import RegisterPage from "./pages/RegisterPage";
 import DetailPage from "./pages/DetailPage";
 
 
@@ -15,13 +12,10 @@ function App() {
     return (
         <BrowserRouter>
         <div className="App">
-        <Navbar/>
         <Routes>
             <Route path="/" element={<HomePage/>}/>
             <Route path="/article" element={<Articles/>}/>
             <Route path="/konsultasi" element={<Konsultasi/>}/>
-            <Route path="/login" element={<LoginPage/>}/>
-            <Route path="/register" element={<RegisterPage/>}/>
             <Route path="/detail/:id" element={<DetailPage/>}/>
         </Routes>
         </div>

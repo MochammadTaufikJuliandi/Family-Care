@@ -21,7 +21,7 @@ export default function DetailArticle() {
   },[])
   
   if(article === undefined) {
-   return( <h1>Data Not found</h1>)
+   return( <h1></h1>)
   }else{
     return (
       <div className="detail">
