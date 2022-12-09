@@ -1,5 +1,4 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route  } from "react-router-dom";
 import ArticleList from "../components/ArticleList";
 import Header from '../components/Header';
 import Footer from '../components/Footer';

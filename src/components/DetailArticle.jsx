@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/heading-has-content */
+/* eslint-disable react-hooks/exhaustive-deps */
 import React from "react";
 import { useParams } from "react-router-dom";
 import { useState, useEffect } from "react";

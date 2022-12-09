@@ -28,7 +28,7 @@ const TestimonialSlider = () => {
     >
       {testimonialsData.map((slide, index) => {
         // destructure slide
-        const { image, message, name, web, delay } = slide;
+        const { image, message, name, web } = slide;
         return (
           // slide
           <SwiperSlide

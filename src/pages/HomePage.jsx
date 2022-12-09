@@ -1,5 +1,4 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route  } from "react-router-dom";
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import Hero from '../components/Hero';

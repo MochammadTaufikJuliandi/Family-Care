@@ -5,7 +5,7 @@ import { copyrightData } from '../data';
 
 const Copyright = () => {
   // destructure copyright data
-  const { text, icon } = copyrightData;
+  const { text } = copyrightData;
   return (
     <section className='mt-5 pb-5' data-aos='fade-up'>
       <div className='container mx-auto'>

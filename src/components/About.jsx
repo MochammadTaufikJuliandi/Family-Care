@@ -5,7 +5,7 @@ import { aboutData } from '../data';
 
 const About = () => {
   // destructure about
-  const { image, title, subtitle } = aboutData;
+  const { title, subtitle } = aboutData;
   return (
     <section
       className='my-[30px] xl:mt-[100px]'
