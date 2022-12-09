@@ -21,7 +21,7 @@ export default function ArticleList() {
   return (
     <>
     <main className="articleList">
-    <h1>Article List</h1>
+    <h1 className='text-center py-10 h2 text-black'>LIST ARTIKEL</h1>
     <section className="articleList__section">
       {article.map((articles) => {
         
