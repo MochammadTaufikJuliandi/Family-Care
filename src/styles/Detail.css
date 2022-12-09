@@ -7,21 +7,35 @@
   margin: auto;
 }
 
+nav ul {
+  margin-left: 550px;
+  position: sticky;
+}
+
+.detail h4 {
+  margin-bottom: 30px;
+  font-weight: bold;
+  text-align: center;
+}
 .detail .title {
   font-size: 2rem;
   color: rgb(37, 37, 37);
+  text-align: center;
+  padding: 16px;
 }
 
 .detail img {
   position: relative;
   width: 100%;
-  min-height: 400px;
+  height: 500px;
   object-fit: cover;
+  border-radius: 20px;
 }
 
 .detail p {
   font-size: 1rem;
   text-align: justify;
+  margin-top: 60px;
 }
 
 @media (max-width: 768px) {

@@ -12,7 +12,7 @@ const About = () => {
       data-aos='fade-up'
       data-aos-offset='350'
     >
-      <div className='container mx-auto'>
+      <div className='container mx-auto' id='yt'>
         <div className='bg-accent-primary/[15%] rounded-[50px] min-h-[560px] px-12 pb-12 flex flex-col text-center xl:flex-row xl:items-center xl:text-left  xl:gap-x-[70px] xl:pb-0'>
           {/* image */}
           <div className='flex-1' data-aos='zoom-in-left'>

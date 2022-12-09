@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 // import navigation data
 import { navigationData } from '../data';
@@ -9,9 +10,9 @@ const NavMobile = () => {
       {navigationData.map((item, index) => {
         return (
           <li key={index}>
-            <a className='text-white' href={item.href}>
+            <Link className='text-white' to={item.href}>
               {item.name}
-            </a>
+            </Link>
           </li>
         );
       })}

@@ -11,17 +11,13 @@ import Avatar3Img from '../src/assets/img/testimonials/avatar3.png';
 import Avatar4Img from '../src/assets/img/testimonials/avatar4.png';
 import HeroImage from '../src/assets/img/hero-img1.png';
 import Feature1BgImg from '../src/assets/img/features/feature1_bg.png';
-import Feature2BgImg from '../src/assets/img/features/feature2_bg.png';
-import Feature3BgImg from '../src/assets/img/features/feature3_bg.png';
 import Feature4BgImg from '../src/assets/img/features/feature4_bg.png';
-import HomePage from "./pages/HomePage";
-import { BrowserRouter, Routes, Route  } from "react-router-dom";
 
 
 export const navigationData = [
   {
     name: 'HOME',
-    href: './',
+    href: '/',
   },
   {
     name: 'ARTIKEL',

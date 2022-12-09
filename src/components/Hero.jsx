@@ -8,7 +8,7 @@ import Header from './Header';
 
 const Hero = () => {
   // destructure hero
-  const { title, subtitle, btnText, image } = heroData;
+  const { title, subtitle, image } = heroData;
   return (
     <section className='lg:h-[700px]'>
       <Header />
@@ -32,13 +32,6 @@ const Hero = () => {
             >
               {subtitle}
             </p>
-            <button
-              className='btn btn-primary mb-8 xl:mb-0'
-              data-aos='fade-down'
-              data-aos-delay='600'
-            >
-              {btnText}
-            </button>
           </div>
           {/* image */}
           <div

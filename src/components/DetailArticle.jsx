@@ -24,7 +24,10 @@ export default function DetailArticle() {
    return( <h1></h1>)
   }else{
     return (
-      <div className="detail">
+      <div className="detail"
+      data-aos='fade-up'
+      data-aos-delay='600'
+      data-aos-duration='800'>
           <h1 className="title">{article.title}</h1>
           <h4>Kategori : {article.category}</h4>
           <img
