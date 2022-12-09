@@ -30,7 +30,7 @@ export default function DetailKonsul() {
       data-aos='fade-up'
       data-aos-delay='600'
       data-aos-duration='800'>
-          <h1 className="title">{konsul.title}</h1>
+          <h1 className="title mt-16">{konsul.title}</h1>
           <h4>Contact : {konsul.contact}</h4>
           <img
             src= {konsul.img}

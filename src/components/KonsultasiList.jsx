@@ -24,7 +24,7 @@ export default function KonsultasiList() {
       data-aos='fade-left'
       data-aos-delay='600'
       data-aos-duration='800'>
-    <h1 className='text-center py-10 h2 text-black'>LIST KONSULTASI WEBSITE</h1>
+    <h1 className='text-center py-10 h2 text-black mt-12'>LIST KONSULTASI WEBSITE</h1>
     <section className="articleList__section">
       {konsul.map((konsuls) => {
         

@@ -24,7 +24,7 @@ export default function ArticleList() {
       data-aos='fade-right'
       data-aos-delay='600'
       data-aos-duration='800'>
-    <h1 className='text-center py-10 h2 text-black'>LIST ARTIKEL</h1>
+    <h1 className='text-center py-10 h2 text-black mt-12'>LIST ARTIKEL</h1>
     <section className="articleList__section">
       {article.map((articles) => {
         

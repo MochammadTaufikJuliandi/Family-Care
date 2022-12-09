@@ -30,7 +30,7 @@ export default function DetailArticle() {
       data-aos='fade-up'
       data-aos-delay='600'
       data-aos-duration='800'>
-          <h1 className="title">{article.title}</h1>
+          <h1 className="title mt-16">{article.title}</h1>
           <h4>Kategori : {article.category}</h4>
           <img
             src= {article.img}

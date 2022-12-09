@@ -12,7 +12,7 @@ const Hero = () => {
   return (
     <section className='lg:h-[700px]'>
       <Header />
-      <div className='container mx-auto h-full relative'>
+      <div className='container mx-auto h-full relative mt-20'>
         <div className='flex flex-col xl:flex-row items-center h-full md:py-24'>
           {/* text */}
           <div className='text-center xl:text-left xl:absolute'>
