@@ -13,7 +13,8 @@ const Header = () => {
   const [navMobile, setNavMobile] = useState(false);
   return (
     <header
-      className='mb-12 lg:mb-0 z-20 sticky px-4 lg:px-0 bg-accent-tertiary text-white'
+      style={{padding:'0px 10px', position: 'fixed'}}
+      className='sticky top-0 z-30 w-full px-2 py-4 bg-accent-tertiary sm:px-4 shadow-xl'
       data-aos='fade-down'
       data-aos-delay='800'
       data-aos-duration='1000'
